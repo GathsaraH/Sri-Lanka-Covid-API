@@ -1,0 +1,388 @@
+body {
+    background-color: rgb(82, 104, 231);
+    background-attachment: fixed;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.mobileNav {
+    visibility: hidden;
+    border-radius: 50px 0 0 50px;
+    top: 95px;
+    right: 0;
+    position: fixed;
+    width: 70%;
+    height: 70vh;
+    /*background-image: linear-gradient(*/
+    /*        to right,*/
+    /*        #051937,*/
+    /*        #021842,*/
+    /*        #08144b,*/
+    /*        #170e52,*/
+    /*        #280056*/
+    /*);*/
+    background-color: rgb(8, 65, 213);
+    z-index: 100;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0px 0px 10px black;
+    border: 2px solid white;
+}
+
+.mobileNav a {
+    color: white !important;
+    text-decoration: none;
+    font-family: 'Poiret One', cursive;
+}
+
+.mobileNav > a > h4 {
+    font-size: 25px;
+    transition: 0.3s;
+}
+
+.mobileNav > a > h4:hover {
+    font-weight: bolder;
+    transition: 0.6s;
+    transform: scale(1.3, 1.3);
+    color: #eccc68;
+    border-bottom: #7bed9f;
+}
+
+
+nav {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    z-index: 100;
+
+}
+
+#btnClick {
+    justify-content: space-around;
+    align-items: flex-end;
+    height: 100%;
+    width: 40%;
+    font-family: 'Poiret One', cursive;
+    display: block;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#btnClick2 {
+    justify-content: space-around;
+    align-items: flex-end;
+    font-family: 'Poiret One', cursive;
+    display: block;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: 'Poiret One', cursive;
+    height: 19%;
+    width: 40%;
+    position: relative;
+    left: 43%;
+    top: 9%;
+}
+
+.nav-items {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    font-family: 'Poiret One', cursive;
+    margin: 10px;
+    width: 350px;
+    position: relative;
+    left: 76%;
+    color: white !important;
+    top: -12px;
+}
+
+.covid1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: -10px;
+    color: rgb(254, 254, 254);
+    left: 1%;
+}
+
+.covid2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    left: 120px;
+    top: -10px;
+    color: rgb(254, 206, 0);
+}
+
+h4, .h4 {
+    font-size: 1.5rem;
+}
+
+.nav-items > a {
+    color: white;
+    text-decoration: none;
+
+}
+
+nav-items > a > h4 {
+    padding-bottom: 5px;
+    transition: 0.4s;
+    cursor: pointer;
+    border-bottom: 1px rgb(255, 31, 31) solid;
+    color: white;
+}
+
+.mainBorder {
+    position: fixed;
+    display: flex;
+    left: 60%;
+    top: 8%;
+
+}
+
+.mainImage {
+    position: fixed;
+    display: flex;
+    left: 67%;
+    top: 15%;
+
+}
+
+.playButton {
+    position: fixed;
+    display: flex;
+    left: 70%;
+    z-index: 10;
+    top: 49%;
+}
+
+.covid-rotate {
+    position: fixed;
+    display: flex;
+    left: 88.7%;
+    top: 26.9%;
+}
+
+.safeNow {
+    position: fixed;
+    display: flex;
+    left: 68.5%;
+    top: 56%;
+}
+
+.para-01 {
+    position: fixed;
+    display: flex;
+    left: 7%;
+    top: 16%;
+
+}
+
+.mainPara {
+    position: fixed;
+    display: flex;
+    left: 7%;
+    top: 16%;
+}
+
+.para-02 {
+    position: fixed;
+    display: flex;
+    left: 5%;
+    top: 18%;
+}
+
+.para-03 {
+    position: fixed;
+    display: flex;
+    left: 6%;
+    top: 34%;
+}
+
+.para-04 {
+    position: fixed;
+    display: flex;
+    left: 7%;
+    top: 51%;
+}
+
+.box-01 {
+    position: fixed;
+    display: flex;
+    width: 240px;
+    height: 180px;
+    background-color: rgb(244, 40, 80);
+    border-radius: 5px;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0px 0px 10px black;
+    border: 2px solid white;
+    top: 70%;
+    left: 6%;
+
+}
+
+.tot-01 {
+    position: fixed;
+    display: flex;
+    top: 82%;
+    left: 10%;
+}
+
+.totHead-01 {
+    position: fixed;
+    display: flex;
+    top: 74%;
+    left: 9%;
+}
+
+.totHead-01 h1 {
+    color: rgb(255, 254, 254);
+}
+
+.box-02 {
+    position: fixed;
+    display: flex;
+    width: 240px;
+    height: 180px;
+    background-color: rgb(8, 65, 213);
+    border-radius: 5px;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0px 0px 10px black;
+    border: 2px solid white;
+    top: 70%;
+    left: 28%;
+
+}
+
+.totHead-02 {
+    position: fixed;
+    display: flex;
+    top: 73%;
+    left: 32%;
+}
+
+.totHead-02 h1 {
+    color: rgb(255, 254, 254);
+}
+
+
+.tot-02 {
+    position: fixed;
+    display: flex;
+    top: 81%;
+    left: 33.4%;
+}
+
+.box-03 {
+    position: fixed;
+    display: flex;
+    width: 240px;
+    height: 180px;
+    background-color: rgb(28, 177, 66);
+    border-radius: 5px;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0px 0px 10px black;
+    border: 2px solid white;
+    top: 70%;
+    left: 51%;
+}
+
+.totHead-03 {
+    position: fixed;
+    display: flex;
+    top: 73%;
+    left: 55%;
+}
+
+.totHead-03 h1 {
+    color: rgb(255, 254, 254);
+}
+
+
+.tot-03 {
+    position: fixed;
+    display: flex;
+    top: 81%;
+    left: 56%;
+}
+
+.live {
+    position: fixed;
+    display: flex;
+    top: 69%;
+    left: 70%;
+}
+
+.lUpdate {
+    position: fixed;
+    display: flex;
+    top: 68%;
+    left: 72%;
+}
+
+.lUpdate2 {
+    position: fixed;
+    display: flex;
+    top: 75%;
+    left: 70%;
+}
+
+.lUpdate3 {
+    position: fixed;
+    display: flex;
+    top: 81%;
+    left: 70%;
+}
+
+@media (max-width: 950px) {
+    .mobileNav {
+        visibility: visible !important;
+        border-radius: 50px 0 0 50px;
+        top: 95px;
+        right: 0;
+        position: fixed;
+        width: 70%;
+        height: 70vh;
+        /*background-image: linear-gradient(*/
+        /*        to right,*/
+        /*        #051937,*/
+        /*        #021842,*/
+        /*        #08144b,*/
+        /*        #170e52,*/
+        /*        #280056*/
+        /*);*/
+        background-color: rgb(8, 65, 213) !important;
+        z-index: 100;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        box-shadow: 0px 0px 10px black;
+        border: 2px solid white;
+    }
+
+    .nav-items {
+        visibility: hidden;
+    }
+
+}
+
